@@ -451,7 +451,7 @@ if [ "$deploy_target" == "k8s" ]; then
     done
   fi
 
-  default_git_repository=https://github.com/azure-devops/spin-kub-demo
+  default_git_repository=https://github.com/xiangyan99/bikesharing360node
   if [ -z "$git_repository" ] && [[ "$quiet" != true ]]; then
     >&2 echo
     read -rp "===> Enter a git repository with a Dockerfile at the root: (leave blank to use '$default_git_repository'): "
